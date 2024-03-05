@@ -7,6 +7,26 @@
   font-family: "Inter";
 }
 
+body{
+  position: relative;
+}
+#alertMessage{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 9999;
+  pointer-events: none;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: center;
+}
+#alertMessagejs {
+  
+  width: 800px;
+}
+
 /* HEADER */
 .main_header {
   background-color: #a60038;
@@ -248,6 +268,7 @@
   order: -1;
   margin-bottom: 20px;
   flex-basis: 100%;
+  position: relative;
 }
 
 .footer_main_text_input input,
