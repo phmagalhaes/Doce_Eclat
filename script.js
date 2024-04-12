@@ -9,3 +9,15 @@ for(var i = 0; i<buttons.length; i++){
     }, 1500);
   });
 }
+
+const menuIcon = document.getElementsByClassName("menuIcon");
+const menuOptions = document.getElementsByClassName("menuOptions");
+menuIcon[0].addEventListener("click", function(){
+  if(menuOptions[0].className.includes("show")){
+    menuIcon[0].classList.remove("click")
+    menuOptions[0].classList.remove("show")
+  } else{
+    menuOptions[0].classList.add("show")
+    menuIcon[0].classList.add("click")
+  }
+})
