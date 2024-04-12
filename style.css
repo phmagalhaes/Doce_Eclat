@@ -384,7 +384,7 @@ body {
   position: relative;
 }
 .main_sobre_content div {
-  flex-basis: calc(33% - 40px);
+  flex-basis: calc(50% - 40px);
   display: inline-block;
   margin: 20px 0;
 }
@@ -408,6 +408,8 @@ body {
 .main_header_menuMobile{
   display: none;
 }
+
+
 @media (max-width: 1680px) {
   .main_article_content_text p {
     padding: 20px 0;
@@ -421,6 +423,28 @@ body {
   }
   .main_article_content_text h1 {
     font-size: 35px;
+  }
+  .main_sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+  }
+  .main_sobre_content {
+    display: block;
+  }
+  .main_sobre_content div {
+    margin: 0px 0;
+  }
+  .main_sobre h1 {
+    font-size: 40px;
+  }
+  .main_sobre_content p {
+    padding: 20px 0;
+  }
+  .main_sobre img {
+    border-radius: 50px;
+    box-shadow: 0px 0px 20px #eb1257;
   }
 }
 
@@ -436,6 +460,12 @@ body {
   }
   #alertMessagejs {
     width: 600px;
+  }
+}
+
+@media (max-width: 1024px){
+  .main_produtos_cards {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
@@ -481,6 +511,21 @@ body {
     flex-basis: 90%;
   }
   #alertMessagejs {
+    width: 500px;
+  }
+  .main_produtos_cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .main_produtos h1 {
+    font-size: 40px;
+  }
+  .main_sobre h1 {
+    font-size: 35px;
+  }
+  .main_sobre_content p {
+    padding: 10px 0;
+  }
+  .main_sobre img {
     width: 500px;
   }
 }
@@ -578,7 +623,7 @@ body {
     opacity: 0;
     transition: opacity 250ms ease-in;
     position: absolute;
-    right: 20;
+    right: 20px;
     background-color: #fcaf66;
     border-radius: 5px;
     padding: 5px 15px;
@@ -598,6 +643,28 @@ body {
   }
   .main_header_menuMobile{
     display: block;
+  }
+  .main_produtos_cards {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 25px;
+  }
+  .main_produtos h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .main_sobre{
+    margin-top: 5px;
+  }
+  .main_sobre h1 {
+    font-size: 25px;
+  }
+  .main_sobre_content p {
+    padding: 5px 0;
+    font-size: 15px;
+    /* margin: 0; */
+  }
+  .main_sobre img {
+    width: 300px;
   }
 }
 @media(max-width: 375px){
