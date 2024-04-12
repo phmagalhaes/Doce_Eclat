@@ -505,7 +505,7 @@ body {
     padding: 10px;
   }
   .publi_text_buttons button {
-    margin: 5px 20px;
+    margin: 5px 15px;
     width: auto;
     padding: 10px 10px;
     font-size: 13px;
@@ -614,7 +614,7 @@ body {
     font-size: 11px;
   }
   .publi_text_buttons button {
-    margin: 5px 15px;
+    margin: 5px 10px;
     padding: 10px 10px;
     font-size: 11px;
   }
@@ -645,7 +645,7 @@ body {
     font-size: 9px;
   }
   .publi_text_buttons button {
-    margin: 5px 10px;
+    margin: 5px 5px;
     padding: 10px 10px;
     font-size: 9px;
   }
