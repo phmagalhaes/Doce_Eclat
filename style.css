@@ -66,10 +66,6 @@ body {
   color: #ffd1a7;
   text-shadow: 0px 0px 15px rgb(255, 181, 70);
 }
-.main_header_nav_links a:hover {
-  color: #ffd1a7;
-  text-decoration: underline;
-}
 .main_header_optin {
   display: flex;
   background-color: #faf3d1;
