@@ -60,11 +60,18 @@ body {
   font-size: 25px;
   padding: 0 30px;
   text-decoration: none;
+<<<<<<< HEAD
   transition: all 300ms ease-in;
 }
 .main_header_nav_links a:hover {
   color: #ffd1a7;
   text-shadow: 0px 0px 15px rgb(255, 181, 70);
+=======
+}
+.main_header_nav_links a:hover {
+  color: #ffd1a7;
+  text-decoration: underline;
+>>>>>>> 10477457bb0775239bddae7eb143500b6256783c
 }
 .main_header_optin {
   display: flex;
@@ -444,6 +451,7 @@ body {
   .main_images_prim {
     width: 90%;
   }
+<<<<<<< HEAD
   .main_images_sec {
     width: 90%;
   }
@@ -560,4 +568,6 @@ body {
     padding: 10px 10px;
     font-size: 15px;
   }
+=======
+>>>>>>> 10477457bb0775239bddae7eb143500b6256783c
 }
