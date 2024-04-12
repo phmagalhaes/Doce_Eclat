@@ -1,18 +1,11 @@
-var buttons = document.querySelectorAll("#mostrarAlertaBtn");
-buttons.forEach(function (button) {
-  button.addEventListener("click", function () {
+var buttons = document.getElementsByTagName("button");
+for(var i = 0; i<buttons.length; i++){
+  buttons[i].addEventListener("click", function () {
     const mensagem = document.getElementById("alertMessage");
-
-    mensagem.innerHTML = `
-          
-        <div class="alert alert-danger" role="alert" id="alertMessagejs">
-            Serviço temporariamente indisponível!
-        </div>
-      
-          `;
+    mensagem.classList.add("show");
 
     setTimeout(function () {
-        mensagem.innerHTML = "";
-    }, 2000);
+      mensagem.classList.remove("show");
+    }, 1500);
   });
-});
+}
